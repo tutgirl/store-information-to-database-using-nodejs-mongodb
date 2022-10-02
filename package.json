@@ -1,4 +1,10 @@
 {
   "name": "qu2",
-  "packageManager": "yarn@3.2.3"
+  "packageManager": "yarn@3.2.3",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.3",
+    "nodemon": "^2.0.20"
+  }
 }
