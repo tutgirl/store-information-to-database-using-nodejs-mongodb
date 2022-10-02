@@ -9,12 +9,13 @@ const { connectToDb, getDb } = require('./db');
 // mongodb+srv://tutnetwork:Thunder@cluster0.39qnub8.mongodb.net/sturdy?retryWrites=true&w=majority
 
 var app = express();
+const PORT = process.env.PORT || 3030
 
 connectToDb((err) => {
     if(!err){
 
-        app.listen(3030, () => {
-            console.log('app lsiteneing on port 3030')
+        app.listen(PORT, () => {
+            console.log('app lsiteneing on port ' + PORT)
         })
         
         db = getDb()
@@ -44,4 +45,4 @@ app.get('/view-feedbacks',  function(req, res) {
     });
 });
 
-app.listen(process.env.PORT || 3030, process.env.IP || '0.0.0.0' );
+// app.listen(process.env.PORT || 3030, process.env.IP || '0.0.0.0' );
