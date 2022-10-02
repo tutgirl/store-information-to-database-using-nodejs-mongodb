@@ -1,21 +1,4 @@
 {
-  "name": "qu3",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.js",
-    "devx": "nodemon m.js",
-    "start": "nodemon test.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "busboy": "^1.6.0",
-    "express": "^4.18.1",
-    "mongodb": "^4.10.0",
-    "mongoose": "^6.6.3",
-    "nodemon": "^2.0.20"
-  }
+  "name": "qu2",
+  "packageManager": "yarn@3.2.3"
 }
