@@ -6,5 +6,11 @@
     "mongodb": "^4.10.0",
     "mongoose": "^6.6.3",
     "nodemon": "^2.0.20"
-  }
+  },
+  
+   "scripts": {
+          "start": "npm app.js"
+      }
 }
+
+
